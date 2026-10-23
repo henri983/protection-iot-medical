@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# Tests & Couverture
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Données sensibles & Environnement
+.env
+*.pem
+*.key
+*.crt
+*.csr
+secrets/
+
+# Bases de données & logs
+*.db
+*.sqlite3
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
